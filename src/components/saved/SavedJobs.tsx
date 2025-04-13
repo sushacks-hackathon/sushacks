@@ -1,4 +1,3 @@
-
 import React from 'react';
 import JobCard from '@/components/JobCard';
 import { useData } from '@/context/DataContext';
@@ -6,23 +5,22 @@ import { toast } from 'sonner';
 
 const SavedJobs: React.FC = () => {
   const { jobs, savedJobs, saveJob, unsaveJob } = useData();
-  
-  // Get saved jobs
+
+  // Get the list of saved job objects
   const savedJobItems = React.useMemo(() => {
     return jobs.filter(job => savedJobs.includes(job.id));
   }, [jobs, savedJobs]);
-  
-  // Handle save/unsave job
-  const handleSaveJob = (id: string) => {
-    saveJob(id);
+
+  const handleSaveJob = (jobId: string) => {
+    saveJob(jobId);
     toast.success('Job saved to your collection');
   };
-  
-  const handleUnsaveJob = (id: string) => {
-    unsaveJob(id);
+
+  const handleUnsaveJob = (jobId: string) => {
+    unsaveJob(jobId);
     toast.success('Job removed from your collection');
   };
-  
+
   if (savedJobItems.length === 0) {
     return (
       <div className="text-center py-12">
@@ -31,7 +29,7 @@ const SavedJobs: React.FC = () => {
       </div>
     );
   }
-  
+
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {savedJobItems.map(job => (
