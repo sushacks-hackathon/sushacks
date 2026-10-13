@@ -133,26 +133,7 @@ IP-Drive/
 │   └── hiring.json
 │
 └── README.md
-⚙️ Installation & Setup
-1️⃣ Clone Repository
-git clone https://github.com/lohitha-2206/ip-drive.git
-cd ip-drive
-2️⃣ Install Backend Dependencies
-cd server
-npm install
-npm start
-3️⃣ Install Frontend Dependencies
-cd client
-npm install
-npm start
 
-Frontend runs on:
-
-http://localhost:3000
-
-Backend runs on:
-
-http://localhost:5000
 🔮 Future Improvements
 
 Full Supabase integration
