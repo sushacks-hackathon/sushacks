@@ -1,0 +1,1587 @@
+{
+  "metadata": {
+    "topics": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "SQL",
+      "HTML",
+      "CSS",
+      "OS",
+      "Networking",
+      "C++",
+      "Data Structures",
+      "DBMS"
+    ],
+    "total_questions": 325
+  },
+  "questions": [
+  {
+    "category": "C++",
+    "question": "What is the use of 'cin' in C++?",
+    "options": ["Input", "Output", "Loop", "Condition"],
+    "answer": "Input"
+  },
+  {
+    "category": "C++",
+    "question": "Which header file is required for cout and cin?",
+    "options": ["iostream", "stdio.h", "conio.h", "stdlib.h"],
+    "answer": "iostream"
+  },
+  {
+    "category": "C++",
+    "question": "Which of the following is used to define a class in C++?",
+    "options": ["object", "define", "class", "struct"],
+    "answer": "class"
+  },
+  {
+    "category": "C++",
+    "question": "Which concept of OOP is shown by function overloading?",
+    "options": ["Inheritance", "Encapsulation", "Polymorphism", "Abstraction"],
+    "answer": "Polymorphism"
+  },
+  {
+    "category": "C++",
+    "question": "What does STL stand for in C++?",
+    "options": ["Standard Type Library", "System Template Library", "Standard Template Library", "Simple Template Library"],
+    "answer": "Standard Template Library"
+  },
+  {
+    "category": "C++",
+    "question": "Which operator is used to allocate memory dynamically in C++?",
+    "options": ["malloc", "alloc", "new", "calloc"],
+    "answer": "new"
+  },
+  {
+    "category": "C++",
+    "question": "Which symbol is used for single-line comments in C++?",
+    "options": ["//", "/*", "#", "--"],
+    "answer": "//"
+  },
+  {
+    "category": "C++",
+    "question": "Which keyword is used to create objects from a class in C++?",
+    "options": ["class", "object", "new", "create"],
+    "answer": "new"
+  },
+  {
+    "category": "C++",
+    "question": "Which data structure uses nodes with two pointers in C++?",
+    "options": ["Array", "Linked List", "Stack", "Queue"],
+    "answer": "Linked List"
+  },
+  {
+    "category": "C++",
+    "question": "Which function is the starting point in a C++ program?",
+    "options": ["start()", "init()", "main()", "begin()"],
+    "answer": "main()"
+  },
+  {
+    "category": "C++",
+    "question": "Which loop is guaranteed to execute at least once in C++?",
+    "options": ["for", "while", "do-while", "foreach"],
+    "answer": "do-while"
+  },
+  {
+    "category": "C++",
+    "question": "What is a virtual function in C++?",
+    "options": ["A function defined inside a class", "A function that can be overridden", "A function with no return", "None"],
+    "answer": "A function that can be overridden"
+  },
+  {
+    "category": "C++",
+    "question": "What is the purpose of 'this' pointer?",
+    "options": ["Points to parent", "Points to class", "Points to calling object", "Points to return"],
+    "answer": "Points to calling object"
+  },
+  {
+    "category": "C++",
+    "question": "Which access specifier restricts access to within class only?",
+    "options": ["public", "protected", "private", "internal"],
+    "answer": "private"
+  },
+  {
+    "category": "C++",
+    "question": "Which of the following is not a storage class in C++?",
+    "options": ["auto", "static", "register", "dynamic"],
+    "answer": "dynamic"
+  },
+  {
+    "category": "C++",
+    "question": "Which of the following describes 'friend' function?",
+    "options": ["Accesses private members", "Belongs to object", "Inherited function", "None"],
+    "answer": "Accesses private members"
+  },
+  {
+    "category": "C++",
+    "question": "Which of the following is used to handle exceptions in C++?",
+    "options": ["try-catch", "if-else", "goto", "while"],
+    "answer": "try-catch"
+  },
+  {
+    "category": "C++",
+    "question": "Which of these is a correct way to define a pointer?",
+    "options": ["int ptr", "int *ptr", "*int ptr", "ptr int*"],
+    "answer": "int *ptr"
+  },
+  {
+    "category": "C++",
+    "question": "What is the output of: int a = 5; cout << ++a;?",
+    "options": ["5", "6", "4", "Error"],
+    "answer": "6"
+  },
+  {
+    "category": "C++",
+    "question": "Which keyword prevents inheritance in C++?",
+    "options": ["final", "sealed", "static", "private"],
+    "answer": "final"
+  },
+  {
+    "category": "CSS",
+    "question": "Which property is used to change the text color in CSS?",
+    "options": ["font-color", "text-color", "color", "background-color"],
+    "answer": "color"
+  },
+  {
+    "category": "CSS",
+    "question": "Which CSS property controls the spacing inside an element?",
+    "options": ["margin", "padding", "border", "gap"],
+    "answer": "padding"
+  },
+  {
+    "category": "CSS",
+    "question": "Which unit is relative to the font-size of the element?",
+    "options": ["px", "em", "cm", "%"],
+    "answer": "em"
+  },
+  {
+    "category": "CSS",
+    "question": "Which CSS property controls the spacing outside an element?",
+    "options": ["margin", "padding", "spacing", "border"],
+    "answer": "margin"
+  },
+  {
+    "category": "CSS",
+    "question": "Which CSS rule is used to apply a style to all <p> elements?",
+    "options": ["p{}", ".p{}", "#p{}", "*p{}"],
+    "answer": "p{}"
+  },
+  {
+    "category": "CSS",
+    "question": "How do you apply a class style to an element?",
+    "options": [".classname", "#classname", "classname()", "class:name"],
+    "answer": ".classname"
+  },
+  {
+    "category": "CSS",
+    "question": "What value of `display` hides an element from the page layout?",
+    "options": ["hidden", "none", "invisible", "block"],
+    "answer": "none"
+  },
+  {
+    "category": "CSS",
+    "question": "Which property defines the z-order of an element?",
+    "options": ["z", "zIndex", "z-order", "z-index"],
+    "answer": "z-index"
+  },
+  {
+    "category": "CSS",
+    "question": "How do you select an element with id='menu'?",
+    "options": [".menu", "menu", "#menu", "*menu"],
+    "answer": "#menu"
+  },
+  {
+    "category": "CSS",
+    "question": "What does the 'hover' pseudo-class do?",
+    "options": ["Applies styles when element is clicked", "When page loads", "When element is moused over", "When element is hidden"],
+    "answer": "When element is moused over"
+  },
+  {
+    "category": "CSS",
+    "question": "Which CSS property is used to change the font?",
+    "options": ["font-family", "font-style", "text-style", "font-name"],
+    "answer": "font-family"
+  },
+  {
+    "category": "CSS",
+    "question": "How do you make a list not show bullets?",
+    "options": ["list-type: none;", "display: none;", "list-style-type: none;", "bullet: none;"],
+    "answer": "list-style-type: none;"
+  },
+  {
+    "category": "CSS",
+    "question": "Which CSS property makes text italic?",
+    "options": ["font-weight", "font-style", "text-style", "italic"],
+    "answer": "font-style"
+  },
+  {
+    "category": "CSS",
+    "question": "Which of the following is NOT a valid value for position property?",
+    "options": ["absolute", "fixed", "relative", "middle"],
+    "answer": "middle"
+  },
+  {
+    "category": "CSS",
+    "question": "What is the default position of an element in CSS?",
+    "options": ["relative", "absolute", "static", "fixed"],
+    "answer": "static"
+  },
+  {
+    "category": "CSS",
+    "question": "Which property controls how overflowed content is handled?",
+    "options": ["visible", "scroll", "overflow", "float"],
+    "answer": "overflow"
+  },
+  {
+    "category": "CSS",
+    "question": "How do you make an element float to the right?",
+    "options": ["float: left;", "align: right;", "float: right;", "position: right;"],
+    "answer": "float: right;"
+  },
+  {
+    "category": "CSS",
+    "question": "Which shorthand property includes margin-top, margin-right, margin-bottom, and margin-left?",
+    "options": ["padding", "margin", "border", "outline"],
+    "answer": "margin"
+  },
+  {
+    "category": "CSS",
+    "question": "Which property is used to create rounded corners?",
+    "options": ["corner-radius", "border", "border-radius", "round-border"],
+    "answer": "border-radius"
+  },
+  {
+    "category": "CSS",
+    "question": "Which pseudo-element is used to insert content before an element?",
+    "options": ["::before", "::pre", "::start", "::insert"],
+    "answer": "::before"
+  },
+  {
+    "category": "DBMS",
+    "question": "What does DBMS stand for?",
+    "options": ["Database Management System", "Data Based Module System", "Database Management Software", "Data Business Model System"],
+    "answer": "Database Management System"
+  },
+  {
+    "category": "DBMS",
+    "question": "Which of the following is a property of a primary key?",
+    "options": ["Duplicate values allowed", "Can be null", "Must be unique", "Can contain NULLs"],
+    "answer": "Must be unique"
+  },
+  {
+    "category": "DBMS",
+    "question": "Which SQL command is used to remove a table from a database?",
+    "options": ["DELETE", "DROP", "REMOVE", "ERASE"],
+    "answer": "DROP"
+  },
+  {
+    "category": "DBMS",
+    "question": "Which normal form eliminates partial dependency?",
+    "options": ["1NF", "2NF", "3NF", "BCNF"],
+    "answer": "2NF"
+  },
+  {
+    "category": "DBMS",
+    "question": "Which command is used to change existing data in a table?",
+    "options": ["MODIFY", "EDIT", "UPDATE", "CHANGE"],
+    "answer": "UPDATE"
+  },
+  {
+    "category": "DBMS",
+    "question": "Which language is used to define the structure of a database?",
+    "options": ["DML", "DDL", "DCL", "TCL"],
+    "answer": "DDL"
+  },
+  {
+    "category": "DBMS",
+    "question": "Which of the following is NOT a type of database?",
+    "options": ["Hierarchical", "Network", "Object-oriented", "Modular"],
+    "answer": "Modular"
+  },
+  {
+    "category": "DBMS",
+    "question": "What is a foreign key?",
+    "options": ["A unique key", "A key referencing another table", "An encrypted key", "A primary key in the same table"],
+    "answer": "A key referencing another table"
+  },
+  {
+    "category": "DBMS",
+    "question": "Which property ensures data accuracy and consistency?",
+    "options": ["Security", "Atomicity", "Data Integrity", "Authorization"],
+    "answer": "Data Integrity"
+  },
+  {
+    "category": "DBMS",
+    "question": "Which key is used to uniquely identify a row in a table?",
+    "options": ["Foreign key", "Candidate key", "Primary key", "Composite key"],
+    "answer": "Primary key"
+  },
+  {
+    "category": "DBMS",
+    "question": "Which command removes all rows from a table without logging individual row deletions?",
+    "options": ["DELETE", "DROP", "TRUNCATE", "REMOVE"],
+    "answer": "TRUNCATE"
+  },
+  {
+    "category": "DBMS",
+    "question": "Which of the following refers to a record in a database?",
+    "options": ["Tuple", "Field", "Column", "Schema"],
+    "answer": "Tuple"
+  },
+  {
+    "category": "DBMS",
+    "question": "Which type of join returns all records when there is a match in either table?",
+    "options": ["INNER JOIN", "LEFT JOIN", "FULL OUTER JOIN", "RIGHT JOIN"],
+    "answer": "FULL OUTER JOIN"
+  },
+  {
+    "category": "DBMS",
+    "question": "Which command is used to save all the transactions to the database?",
+    "options": ["SAVE", "COMMIT", "ROLLBACK", "END"],
+    "answer": "COMMIT"
+  },
+  {
+    "category": "DBMS",
+    "question": "What is a view in a database?",
+    "options": ["Physical copy of a table", "Temporary result set", "Schema", "Backup copy"],
+    "answer": "Temporary result set"
+  },
+  {
+    "category": "DBMS",
+    "question": "Which normal form eliminates transitive dependency?",
+    "options": ["1NF", "2NF", "3NF", "BCNF"],
+    "answer": "3NF"
+  },
+  {
+    "category": "DBMS",
+    "question": "What is denormalization?",
+    "options": ["Inserting NULLs", "Removing data redundancy", "Introducing redundancy for performance", "Splitting tables"],
+    "answer": "Introducing redundancy for performance"
+  },
+  {
+    "category": "DBMS",
+    "question": "Which command is used to take away privileges?",
+    "options": ["REVOKE", "GRANT", "DENY", "DROP"],
+    "answer": "REVOKE"
+  },
+  {
+    "category": "DBMS",
+    "question": "Which operation combines two relations?",
+    "options": ["JOIN", "INTERSECT", "UNION", "MERGE"],
+    "answer": "UNION"
+  },
+  {
+    "category": "DBMS",
+    "question": "Which SQL statement is used to remove a view?",
+    "options": ["DELETE VIEW", "REMOVE VIEW", "DROP VIEW", "CLEAR VIEW"],
+    "answer": "DROP VIEW"
+  },
+  {
+    "category": "Data Structures",
+    "question": "Which data structure uses First In First Out (FIFO)?",
+    "options": ["Stack", "Queue", "Array", "Linked List"],
+    "answer": "Queue"
+  },
+  {
+    "category": "Data Structures",
+    "question": "Which of these supports Last In First Out (LIFO)?",
+    "options": ["Stack", "Queue", "Graph", "Tree"],
+    "answer": "Stack"
+  },
+  {
+    "category": "Data Structures",
+    "question": "Which traversal visits left-root-right in binary trees?",
+    "options": ["Inorder", "Preorder", "Postorder", "Level Order"],
+    "answer": "Inorder"
+  },
+  {
+    "category": "Data Structures",
+    "question": "Which sorting algorithm has worst-case time complexity O(n^2)?",
+    "options": ["Merge Sort", "Quick Sort", "Bubble Sort", "Heap Sort"],
+    "answer": "Bubble Sort"
+  },
+  {
+    "category": "Data Structures",
+    "question": "Which of these is a linear data structure?",
+    "options": ["Tree", "Graph", "Array", "Hash Table"],
+    "answer": "Array"
+  },
+  {
+    "category": "Data Structures",
+    "question": "Which data structure is used in recursive function calls?",
+    "options": ["Queue", "Stack", "Array", "Heap"],
+    "answer": "Stack"
+  },
+  {
+    "category": "Data Structures",
+    "question": "Which traversal visits nodes level by level in a tree?",
+    "options": ["Inorder", "Preorder", "Postorder", "Level Order"],
+    "answer": "Level Order"
+  },
+  {
+    "category": "Data Structures",
+    "question": "What is the time complexity of binary search?",
+    "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+    "answer": "O(log n)"
+  },
+  {
+    "category": "Data Structures",
+    "question": "Which data structure allows elements to be inserted and deleted from both ends?",
+    "options": ["Stack", "Deque", "Queue", "Array"],
+    "answer": "Deque"
+  },
+  {
+    "category": "Data Structures",
+    "question": "What is the height of a tree with a single node?",
+    "options": ["0", "1", "-1", "2"],
+    "answer": "0"
+  },
+  {
+    "category": "Data Structures",
+    "question": "Which data structure uses hashing technique?",
+    "options": ["Array", "Linked List", "Hash Table", "Tree"],
+    "answer": "Hash Table"
+  },
+  {
+    "category": "Data Structures",
+    "question": "Which data structure is best for implementing priority queues?",
+    "options": ["Stack", "Heap", "Tree", "Graph"],
+    "answer": "Heap"
+  },
+  {
+    "category": "Data Structures",
+    "question": "Which algorithm is best for finding shortest paths in graphs?",
+    "options": ["Dijkstra’s Algorithm", "DFS", "BFS", "Kruskal’s Algorithm"],
+    "answer": "Dijkstra’s Algorithm"
+  },
+  {
+    "category": "Data Structures",
+    "question": "What is a leaf node?",
+    "options": ["A node with children", "The root node", "A node with no children", "A node at the top"],
+    "answer": "A node with no children"
+  },
+  {
+    "category": "Data Structures",
+    "question": "Which traversal of binary tree is used to clone the tree?",
+    "options": ["Inorder", "Postorder", "Preorder", "None"],
+    "answer": "Preorder"
+  },
+  {
+    "category": "Data Structures",
+    "question": "Which of these algorithms is divide and conquer?",
+    "options": ["Bubble Sort", "Merge Sort", "Selection Sort", "Insertion Sort"],
+    "answer": "Merge Sort"
+  },
+  {
+    "category": "Data Structures",
+    "question": "Which tree is used in database indexing?",
+    "options": ["Binary Search Tree", "B-Tree", "AVL Tree", "Trie"],
+    "answer": "B-Tree"
+  },
+  {
+    "category": "Data Structures",
+    "question": "Which data structure is used in BFS traversal?",
+    "options": ["Stack", "Queue", "Deque", "Heap"],
+    "answer": "Queue"
+  },
+  {
+    "category": "Data Structures",
+    "question": "Which algorithm is used for detecting cycles in graphs?",
+    "options": ["DFS", "BFS", "Bellman-Ford", "Dijkstra"],
+    "answer": "DFS"
+  },
+  {
+    "category": "Data Structures",
+    "question": "Which data structure is best for implementing undo operations?",
+    "options": ["Queue", "Stack", "Array", "Tree"],
+    "answer": "Stack"
+  },
+  {
+    "category": "HTML",
+    "question": "What does HTML stand for?",
+    "options": ["HyperText Markup Language", "HighText Markup Language", "HyperTool Markup Language", "HyperText Markdown Language"],
+    "answer": "HyperText Markup Language"
+  },
+  {
+    "category": "HTML",
+    "question": "Which tag is used to create a hyperlink?",
+    "options": ["<a>", "<link>", "<href>", "<hyperlink>"],
+    "answer": "<a>"
+  },
+  {
+    "category": "HTML",
+    "question": "Which tag is used to insert an image in HTML?",
+    "options": ["<image>", "<img>", "<src>", "<picture>"],
+    "answer": "<img>"
+  },
+  {
+    "category": "HTML",
+    "question": "What is the correct HTML element for inserting a line break?",
+    "options": ["<break>", "<lb>", "<br>", "<newline>"],
+    "answer": "<br>"
+  },
+  {
+    "category": "HTML",
+    "question": "How do you start an unordered list in HTML?",
+    "options": ["<ol>", "<ul>", "<list>", "<li>"],
+    "answer": "<ul>"
+  },
+  {
+    "category": "HTML",
+    "question": "Which tag is used for the largest heading?",
+    "options": ["<h6>", "<head>", "<h1>", "<heading>"],
+    "answer": "<h1>"
+  },
+  {
+    "category": "HTML",
+    "question": "What is the purpose of the <title> tag?",
+    "options": ["To define a paragraph", "To name the tab title", "To display header text", "To style the page"],
+    "answer": "To name the tab title"
+  },
+  {
+    "category": "HTML",
+    "question": "Which attribute is used in HTML to define inline styles?",
+    "options": ["style", "class", "font", "css"],
+    "answer": "style"
+  },
+  {
+    "category": "HTML",
+    "question": "What does the <meta> tag provide?",
+    "options": ["Script support", "Style rules", "Metadata about the document", "Defines links"],
+    "answer": "Metadata about the document"
+  },
+  {
+    "category": "HTML",
+    "question": "What is the correct HTML for adding a background color?",
+    "options": ["<body bg='blue'>", "<body style='background-color:blue;'>", "<background>blue</background>", "<color>blue</color>"],
+    "answer": "<body style='background-color:blue;'>"
+  },
+  {
+    "category": "HTML",
+    "question": "How do you create a checkbox in HTML?",
+    "options": ["<checkbox>", "<input type='checkbox'>", "<box>", "<input checkbox>"],
+    "answer": "<input type='checkbox'>"
+  },
+  {
+    "category": "HTML",
+    "question": "Which tag is used to define a table row?",
+    "options": ["<td>", "<tr>", "<th>", "<row>"],
+    "answer": "<tr>"
+  },
+  {
+    "category": "HTML",
+    "question": "Which input type is used for selecting a file?",
+    "options": ["text", "file", "upload", "document"],
+    "answer": "file"
+  },
+  {
+    "category": "HTML",
+    "question": "Which tag defines emphasized text in HTML?",
+    "options": ["<em>", "<i>", "<strong>", "<highlight>"],
+    "answer": "<em>"
+  },
+  {
+    "category": "HTML",
+    "question": "Which tag creates a numbered list?",
+    "options": ["<ol>", "<ul>", "<li>", "<list>"],
+    "answer": "<ol>"
+  },
+  {
+    "category": "HTML",
+    "question": "What is the correct way to comment in HTML?",
+    "options": ["// comment", "# comment", "<!-- comment -->", "/* comment */"],
+    "answer": "<!-- comment -->"
+  },
+  {
+    "category": "HTML",
+    "question": "Which element contains visible page content?",
+    "options": ["<body>", "<head>", "<meta>", "<link>"],
+    "answer": "<body>"
+  },
+  {
+    "category": "HTML",
+    "question": "What tag is used for adding JavaScript to a page?",
+    "options": ["<javascript>", "<script>", "<js>", "<code>"],
+    "answer": "<script>"
+  },
+  {
+    "category": "HTML",
+    "question": "What is the use of the <form> tag?",
+    "options": ["To link styles", "To embed scripts", "To collect user input", "To structure content"],
+    "answer": "To collect user input"
+  },
+  {
+    "category": "HTML",
+    "question": "What is the default alignment of <div> elements?",
+    "options": ["left", "right", "center", "justify"],
+    "answer": "left"
+  },
+  {
+    "category": "Java",
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": ["this", "extends", "implements", "import"],
+    "answer": "extends"
+  },
+  {
+    "category": "Java",
+    "question": "What is the default value of an int variable in Java?",
+    "options": ["0", "null", "undefined", "NaN"],
+    "answer": "0"
+  },
+  {
+    "category": "Java",
+    "question": "Which of these is a Java access modifier?",
+    "options": ["public", "package", "main", "get"],
+    "answer": "public"
+  },
+  {
+    "category": "Java",
+    "question": "Which method is the entry point for any Java program?",
+    "options": ["start()", "init()", "main()", "run()"],
+    "answer": "main()"
+  },
+  {
+    "category": "Java",
+    "question": "Which of these is not a primitive type in Java?",
+    "options": ["int", "float", "String", "char"],
+    "answer": "String"
+  },
+  {
+    "category": "Java",
+    "question": "Which keyword is used to define a constant variable?",
+    "options": ["const", "define", "final", "static"],
+    "answer": "final"
+  },
+  {
+    "category": "Java",
+    "question": "What is the size of an int in Java?",
+    "options": ["2 bytes", "4 bytes", "8 bytes", "Depends on system"],
+    "answer": "4 bytes"
+  },
+  {
+    "category": "Java",
+    "question": "Which operator is used to compare two values?",
+    "options": ["=", "==", "!=", "<>"],
+    "answer": "=="
+  },
+  {
+    "category": "Java",
+    "question": "Which class is the superclass of all classes in Java?",
+    "options": ["Class", "Object", "System", "Main"],
+    "answer": "Object"
+  },
+  {
+    "category": "Java",
+    "question": "Which exception is thrown when an array is accessed out of bounds?",
+    "options": ["NullPointerException", "IOException", "ArrayIndexOutOfBoundsException", "ArithmeticException"],
+    "answer": "ArrayIndexOutOfBoundsException"
+  },
+  {
+    "category": "Java",
+    "question": "Which package contains the Scanner class?",
+    "options": ["java.io", "java.util", "java.lang", "java.net"],
+    "answer": "java.util"
+  },
+  {
+    "category": "Java",
+    "question": "Which method is used to create a thread in Java?",
+    "options": ["start()", "run()", "execute()", "init()"],
+    "answer": "start()"
+  },
+  {
+    "category": "Java",
+    "question": "Which keyword is used for error handling in Java?",
+    "options": ["try", "catch", "throw", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "category": "Java",
+    "question": "What is bytecode in Java?",
+    "options": ["Machine code", "Intermediate code", "Java source code", "Assembly code"],
+    "answer": "Intermediate code"
+  },
+  {
+    "category": "Java",
+    "question": "Which loop is guaranteed to execute at least once?",
+    "options": ["for", "while", "do-while", "foreach"],
+    "answer": "do-while"
+  },
+  {
+    "category": "Java",
+    "question": "What is the use of the 'super' keyword?",
+    "options": ["Refer to parent class", "Refer to child class", "Call constructor", "None"],
+    "answer": "Refer to parent class"
+  },
+  {
+    "category": "Java",
+    "question": "Which collection class allows duplicate elements?",
+    "options": ["Set", "Map", "List", "TreeSet"],
+    "answer": "List"
+  },
+  {
+    "category": "Java",
+    "question": "Which keyword prevents method overriding?",
+    "options": ["static", "final", "abstract", "private"],
+    "answer": "final"
+  },
+  {
+    "category": "Java",
+    "question": "Which concept allows you to reuse code in Java?",
+    "options": ["Polymorphism", "Abstraction", "Inheritance", "Encapsulation"],
+    "answer": "Inheritance"
+  },
+  {
+    "category": "Java",
+    "question": "Which keyword is used to define an interface in Java?",
+    "options": ["interface", "abstract", "class", "contract"],
+    "answer": "interface"
+  },
+  {
+    "category": "JavaScript",
+    "question": "Which keyword is used to declare a variable in JavaScript?",
+    "options": ["var", "int", "let", "Both var and let"],
+    "answer": "Both var and let"
+  },
+  {
+    "category": "JavaScript",
+    "question": "Which symbol is used for comments in JavaScript?",
+    "options": ["//", "/*", "#", "<!--"],
+    "answer": "//"
+  },
+  {
+    "category": "JavaScript",
+    "question": "What is the output of typeof null in JavaScript?",
+    "options": ["null", "undefined", "object", "boolean"],
+    "answer": "object"
+  },
+  {
+    "category": "JavaScript",
+    "question": "Which method converts JSON data to a JavaScript object?",
+    "options": ["JSON.stringify()", "JSON.parse()", "JSON.decode()", "JSON.toObject()"],
+    "answer": "JSON.parse()"
+  },
+  {
+    "category": "JavaScript",
+    "question": "Which of these is a JavaScript data type?",
+    "options": ["float", "double", "symbol", "real"],
+    "answer": "symbol"
+  },
+  {
+    "category": "JavaScript",
+    "question": "Which operator is used for strict equality in JavaScript?",
+    "options": ["==", "=", "===", "!=="],
+    "answer": "==="
+  },
+  {
+    "category": "JavaScript",
+    "question": "What is the purpose of the 'this' keyword in JavaScript?",
+    "options": ["Refers to the current object", "Refers to global scope", "Used in loops", "None of these"],
+    "answer": "Refers to the current object"
+  },
+  {
+    "category": "JavaScript",
+    "question": "Which function is used to delay execution in JavaScript?",
+    "options": ["setTimeout()", "delay()", "pause()", "timeout()"],
+    "answer": "setTimeout()"
+  },
+  {
+    "category": "JavaScript",
+    "question": "What is a closure in JavaScript?",
+    "options": [
+      "A variable",
+      "A function inside another function that has access to the outer function’s variables",
+      "A loop",
+      "An if-else block"
+    ],
+    "answer": "A function inside another function that has access to the outer function’s variables"
+  },
+  {
+    "category": "JavaScript",
+    "question": "Which object is the root of the DOM hierarchy in browsers?",
+    "options": ["window", "document", "html", "body"],
+    "answer": "document"
+  },
+  {
+    "category": "JavaScript",
+    "question": "What does the '===' operator do?",
+    "options": ["Compares values only", "Compares type only", "Compares both value and type", "Assigns value"],
+    "answer": "Compares both value and type"
+  },
+  {
+    "category": "JavaScript",
+    "question": "Which function can be used to execute code repeatedly with a fixed delay?",
+    "options": ["setInterval()", "setTimeout()", "repeat()", "loop()"],
+    "answer": "setInterval()"
+  },
+  {
+    "category": "JavaScript",
+    "question": "Which keyword is used to define a constant in JavaScript?",
+    "options": ["constant", "let", "const", "define"],
+    "answer": "const"
+  },
+  {
+    "category": "JavaScript",
+    "question": "Which built-in method returns the character at a specified index?",
+    "options": ["charAt()", "charAtIndex()", "getChar()", "char()"],
+    "answer": "charAt()"
+  },
+  {
+    "category": "JavaScript",
+    "question": "What will `NaN === NaN` return?",
+    "options": ["true", "false", "undefined", "error"],
+    "answer": "false"
+  },
+  {
+    "category": "JavaScript",
+    "question": "Which JavaScript method is used to filter elements in an array?",
+    "options": ["map()", "filter()", "forEach()", "reduce()"],
+    "answer": "filter()"
+  },
+  {
+    "category": "JavaScript",
+    "question": "What is the default value of an uninitialized variable in JavaScript?",
+    "options": ["0", "null", "NaN", "undefined"],
+    "answer": "undefined"
+  },
+  {
+    "category": "JavaScript",
+    "question": "Which of these is NOT a looping structure in JavaScript?",
+    "options": ["for", "while", "foreach", "loop"],
+    "answer": "loop"
+  },
+  {
+    "category": "JavaScript",
+    "question": "Which JavaScript statement handles errors?",
+    "options": ["try-catch", "if-else", "switch-case", "error-catch"],
+    "answer": "try-catch"
+  },
+  {
+    "category": "JavaScript",
+    "question": "What is the scope of variables declared with 'let'?",
+    "options": ["Function scope", "Global scope", "Block scope", "Object scope"],
+    "answer": "Block scope"
+  },
+  {
+    "category": "Networking",
+    "question": "What does IP stand for in networking?",
+    "options": ["Internet Protocol", "Internal Program", "Internet Package", "Input Protocol"],
+    "answer": "Internet Protocol"
+  },
+  {
+    "category": "Networking",
+    "question": "Which device is used to connect different networks together?",
+    "options": ["Switch", "Hub", "Router", "Bridge"],
+    "answer": "Router"
+  },
+  {
+    "category": "Networking",
+    "question": "What is the full form of DNS?",
+    "options": ["Domain Number System", "Domain Name System", "Digital Name Service", "Data Network System"],
+    "answer": "Domain Name System"
+  },
+  {
+    "category": "Networking",
+    "question": "Which protocol is used to transfer files over the Internet?",
+    "options": ["HTTP", "FTP", "IP", "SMTP"],
+    "answer": "FTP"
+  },
+  {
+    "category": "Networking",
+    "question": "What layer of the OSI model is responsible for routing?",
+    "options": ["Data Link", "Network", "Transport", "Application"],
+    "answer": "Network"
+  },
+  {
+    "category": "Networking",
+    "question": "Which protocol is used for sending emails?",
+    "options": ["FTP", "SMTP", "HTTP", "POP"],
+    "answer": "SMTP"
+  },
+  {
+    "category": "Networking",
+    "question": "What does MAC stand for in networking?",
+    "options": ["Media Access Control", "Machine Access Code", "Manual Access Control", "Multiple Address Control"],
+    "answer": "Media Access Control"
+  },
+  {
+    "category": "Networking",
+    "question": "Which IP version uses 128-bit addressing?",
+    "options": ["IPv4", "IPv5", "IPv6", "IPX"],
+    "answer": "IPv6"
+  },
+  {
+    "category": "Networking",
+    "question": "What is the function of a switch in a network?",
+    "options": ["Connects networks", "Amplifies signal", "Filters packets", "Connects devices within a network"],
+    "answer": "Connects devices within a network"
+  },
+  {
+    "category": "Networking",
+    "question": "Which device operates at the Data Link Layer of the OSI model?",
+    "options": ["Hub", "Router", "Switch", "Gateway"],
+    "answer": "Switch"
+  },
+  {
+    "category": "Networking",
+    "question": "Which port number does HTTP use by default?",
+    "options": ["20", "21", "80", "443"],
+    "answer": "80"
+  },
+  {
+    "category": "Networking",
+    "question": "What is the function of the ARP protocol?",
+    "options": ["Assigns IP addresses", "Resolves IP to MAC address", "Resolves MAC to IP address", "Routes packets"],
+    "answer": "Resolves IP to MAC address"
+  },
+  {
+    "category": "Networking",
+    "question": "Which of the following is a class A IP address?",
+    "options": ["10.0.0.1", "172.16.0.1", "192.168.0.1", "224.0.0.1"],
+    "answer": "10.0.0.1"
+  },
+  {
+    "category": "Networking",
+    "question": "What is a subnet mask used for?",
+    "options": ["To hide IP address", "To detect virus", "To identify network and host portions of an IP address", "To encrypt packets"],
+    "answer": "To identify network and host portions of an IP address"
+  },
+  {
+    "category": "Networking",
+    "question": "Which protocol is used to securely browse the web?",
+    "options": ["HTTP", "FTP", "HTTPS", "SMTP"],
+    "answer": "HTTPS"
+  },
+  {
+    "category": "Networking",
+    "question": "What is the purpose of a firewall?",
+    "options": ["Speed up internet", "Block ads", "Protect network from unauthorized access", "Connect to remote networks"],
+    "answer": "Protect network from unauthorized access"
+  },
+  {
+    "category": "Networking",
+    "question": "Which tool is used to test network connectivity?",
+    "options": ["ping", "dir", "ls", "cd"],
+    "answer": "ping"
+  },
+  {
+    "category": "Networking",
+    "question": "Which layer of the OSI model ensures error-free delivery?",
+    "options": ["Transport", "Network", "Data Link", "Application"],
+    "answer": "Transport"
+  },
+  {
+    "category": "Networking",
+    "question": "Which command shows the route taken by packets?",
+    "options": ["ipconfig", "tracert", "ping", "nslookup"],
+    "answer": "tracert"
+  },
+  {
+    "category": "Networking",
+    "question": "What does NAT stand for?",
+    "options": ["Network Access Translation", "Network Address Translation", "Net Access Table", "None of the above"],
+    "answer": "Network Address Translation"
+  },
+  {
+    "category": "Node.js",
+    "question": "What is Node.js primarily used for?",
+    "options": ["Front-end development", "Operating systems", "Back-end development", "Game development"],
+    "answer": "Back-end development"
+  },
+  {
+    "category": "Node.js",
+    "question": "Node.js is built on which JavaScript engine?",
+    "options": ["SpiderMonkey", "Chakra", "V8", "Nashorn"],
+    "answer": "V8"
+  },
+  {
+    "category": "Node.js",
+    "question": "Which module is used to create a server in Node.js?",
+    "options": ["fs", "http", "url", "net"],
+    "answer": "http"
+  },
+  {
+    "category": "Node.js",
+    "question": "Which keyword is used to import modules in Node.js?",
+    "options": ["require", "import", "include", "load"],
+    "answer": "require"
+  },
+  {
+    "category": "Node.js",
+    "question": "Which of the following is a Node.js framework?",
+    "options": ["Django", "Flask", "Express", "Laravel"],
+    "answer": "Express"
+  },
+  {
+    "category": "Node.js",
+    "question": "Which file extension is used for Node.js files?",
+    "options": [".node", ".js", ".json", ".html"],
+    "answer": ".js"
+  },
+  {
+    "category": "Node.js",
+    "question": "What does npm stand for?",
+    "options": ["Node Project Manager", "Node Package Manager", "New Package Module", "None"],
+    "answer": "Node Package Manager"
+  },
+  {
+    "category": "Node.js",
+    "question": "How do you read a file in Node.js?",
+    "options": ["http.read()", "fs.readFile()", "read.file()", "file.read()"],
+    "answer": "fs.readFile()"
+  },
+  {
+    "category": "Node.js",
+    "question": "What is a callback function in Node.js?",
+    "options": ["A function called once", "A blocking function", "A function passed as an argument", "None"],
+    "answer": "A function passed as an argument"
+  },
+  {
+    "category": "Node.js",
+    "question": "Which method is used to parse JSON in Node.js?",
+    "options": ["JSON.decode()", "JSON.read()", "JSON.parse()", "parse.JSON()"],
+    "answer": "JSON.parse()"
+  },
+  {
+    "category": "Node.js",
+    "question": "Which command is used to initialize a Node.js project?",
+    "options": ["npm init", "node start", "npm install", "node init"],
+    "answer": "npm init"
+  },
+  {
+    "category": "Node.js",
+    "question": "Which of these is true about Node.js?",
+    "options": ["It is single-threaded", "It is multi-threaded", "It is synchronous", "It runs only in browsers"],
+    "answer": "It is single-threaded"
+  },
+  {
+    "category": "Node.js",
+    "question": "Which object is the parent of all modules in Node.js?",
+    "options": ["global", "module", "exports", "require"],
+    "answer": "global"
+  },
+  {
+    "category": "Node.js",
+    "question": "Which core module handles file operations?",
+    "options": ["http", "url", "fs", "path"],
+    "answer": "fs"
+  },
+  {
+    "category": "Node.js",
+    "question": "Which of the following is used to handle routing in Express.js?",
+    "options": ["fs", "res", "req", "app"],
+    "answer": "app"
+  },
+  {
+    "category": "Node.js",
+    "question": "What is the command to install an npm package globally?",
+    "options": ["npm install -g", "npm global install", "install -g", "npm -g install"],
+    "answer": "npm install -g"
+  },
+  {
+    "category": "Node.js",
+    "question": "Which directive exposes functions from a Node.js module?",
+    "options": ["require", "module.exports", "exports.require", "export.module"],
+    "answer": "module.exports"
+  },
+  {
+    "category": "Node.js",
+    "question": "Which module is used to create web servers in Express?",
+    "options": ["http", "https", "express", "url"],
+    "answer": "express"
+  },
+  {
+    "category": "Node.js",
+    "question": "What is middleware in Express.js?",
+    "options": ["Database connector", "Request/response handler", "HTML renderer", "File server"],
+    "answer": "Request/response handler"
+  },
+  {
+    "category": "Node.js",
+    "question": "Which command lists all globally installed packages?",
+    "options": ["npm list", "npm -g", "npm list -g", "npm global list"],
+    "answer": "npm list -g"
+  },
+  {
+    "category": "OS",
+    "question": "Which of the following is not a function of the operating system?",
+    "options": ["Memory management", "Process scheduling", "Compiler design", "Device management"],
+    "answer": "Compiler design"
+  },
+  {
+    "category": "OS",
+    "question": "Which scheduling algorithm gives the minimum average waiting time?",
+    "options": ["FCFS", "SJF", "Round Robin", "Priority Scheduling"],
+    "answer": "SJF"
+  },
+  {
+    "category": "OS",
+    "question": "What is a deadlock?",
+    "options": ["A virus", "Two processes waiting on each other indefinitely", "Memory leak", "Slow CPU"],
+    "answer": "Two processes waiting on each other indefinitely"
+  },
+  {
+    "category": "OS",
+    "question": "Which system call is used to create a new process?",
+    "options": ["exec()", "init()", "start()", "fork()"],
+    "answer": "fork()"
+  },
+  {
+    "category": "OS",
+    "question": "Which memory allocation method can cause external fragmentation?",
+    "options": ["Paging", "Segmentation", "Contiguous allocation", "Virtual memory"],
+    "answer": "Contiguous allocation"
+  },
+  {
+    "category": "OS",
+    "question": "What is thrashing in operating systems?",
+    "options": ["Overheating of CPU", "Excessive context switching", "Frequent page swapping", "Resource starvation"],
+    "answer": "Frequent page swapping"
+  },
+  {
+    "category": "OS",
+    "question": "Which of the following is a non-preemptive scheduling algorithm?",
+    "options": ["Round Robin", "SJF (non-preemptive)", "Priority (preemptive)", "Multilevel Queue"],
+    "answer": "SJF (non-preemptive)"
+  },
+  {
+    "category": "OS",
+    "question": "What is the main function of the command 'ps' in UNIX/Linux?",
+    "options": ["Show printer status", "Display process status", "Shutdown system", "Partition disk"],
+    "answer": "Display process status"
+  },
+  {
+    "category": "OS",
+    "question": "Which one is a type of semaphore used in OS for synchronization?",
+    "options": ["Binary", "Float", "Logical", "Decimal"],
+    "answer": "Binary"
+  },
+  {
+    "category": "OS",
+    "question": "What does a context switch involve?",
+    "options": ["Switching memory banks", "Changing the OS", "Saving and loading process states", "Rebooting the system"],
+    "answer": "Saving and loading process states"
+  },
+  {
+    "category": "OS",
+    "question": "In paging, what does the page table contain?",
+    "options": ["Page numbers only", "Frame numbers", "Process IDs", "Virtual addresses"],
+    "answer": "Frame numbers"
+  },
+  {
+    "category": "OS",
+    "question": "Which technique allows execution of a program not completely in memory?",
+    "options": ["Paging", "Segmentation", "Demand paging", "Contiguous allocation"],
+    "answer": "Demand paging"
+  },
+  {
+    "category": "OS",
+    "question": "What does CPU scheduling decide?",
+    "options": ["Which process to terminate", "Which process to run next", "Which memory to allocate", "Which I/O device to use"],
+    "answer": "Which process to run next"
+  },
+  {
+    "category": "OS",
+    "question": "Which OS is most commonly used in mobile phones?",
+    "options": ["Linux", "Windows", "Android", "macOS"],
+    "answer": "Android"
+  },
+  {
+    "category": "OS",
+    "question": "What is the size of a page in most modern operating systems?",
+    "options": ["1 KB", "4 KB", "512 KB", "1 MB"],
+    "answer": "4 KB"
+  },
+  {
+    "category": "OS",
+    "question": "Which strategy is used to prevent deadlocks?",
+    "options": ["Wait-for graph", "Banker's algorithm", "Thrashing", "Multitasking"],
+    "answer": "Banker's algorithm"
+  },
+  {
+    "category": "OS",
+    "question": "Which layer of the OS directly interacts with the hardware?",
+    "options": ["Application", "Kernel", "Shell", "User Interface"],
+    "answer": "Kernel"
+  },
+  {
+    "category": "OS",
+    "question": "What is the main purpose of the bootloader?",
+    "options": ["Format hard disk", "Initialize RAM", "Load operating system", "Start BIOS"],
+    "answer": "Load operating system"
+  },
+  {
+    "category": "OS",
+    "question": "Which file system is commonly used in Linux?",
+    "options": ["NTFS", "FAT32", "ext4", "HFS+"],
+    "answer": "ext4"
+  },
+  {
+    "category": "OS",
+    "question": "Which process state means the process is waiting for an event to occur?",
+    "options": ["Ready", "Running", "Waiting", "Terminated"],
+    "answer": "Waiting"
+  },
+  {
+    "category": "Python",
+    "question": "Which keyword is used to define a function in Python?",
+    "options": ["function", "def", "define", "lambda"],
+    "answer": "def"
+  },
+  {
+    "category": "Python",
+    "question": "What is the output of: len('Python')?",
+    "options": ["5", "6", "7", "Error"],
+    "answer": "6"
+  },
+  {
+    "category": "Python",
+    "question": "Which of these is a mutable data type in Python?",
+    "options": ["tuple", "list", "str", "int"],
+    "answer": "list"
+  },
+  {
+    "category": "Python",
+    "question": "How do you insert comments in Python code?",
+    "options": ["// comment", "# comment", "/* comment */", "<!-- comment -->"],
+    "answer": "# comment"
+  },
+  {
+    "category": "Python",
+    "question": "What will be the output of: print(type(3.14))?",
+    "options": ["<class 'int'>", "<class 'float'>", "<class 'str'>", "<class 'double'>"],
+    "answer": "<class 'float'>"
+  },
+  {
+    "category": "Python",
+    "question": "What does the 'append()' method do in Python?",
+    "options": ["Adds item to a list", "Adds item to a string", "Sorts a list", "Removes item from list"],
+    "answer": "Adds item to a list"
+  },
+  {
+    "category": "Python",
+    "question": "Which keyword is used for exception handling in Python?",
+    "options": ["try", "catch", "except", "both try and except"],
+    "answer": "both try and except"
+  },
+  {
+    "category": "Python",
+    "question": "What is the output of: bool(0)?",
+    "options": ["True", "False", "0", "None"],
+    "answer": "False"
+  },
+  {
+    "category": "Python",
+    "question": "Which built-in function returns the largest item in an iterable?",
+    "options": ["max()", "largest()", "biggest()", "top()"],
+    "answer": "max()"
+  },
+  {
+    "category": "Python",
+    "question": "What is a lambda function?",
+    "options": ["A class", "An anonymous function", "A loop", "A variable"],
+    "answer": "An anonymous function"
+  },
+  {
+    "category": "Python",
+    "question": "Which of the following is used to define a block of code in Python?",
+    "options": ["Braces {}", "Indentation", "Parentheses ()", "Colons only"],
+    "answer": "Indentation"
+  },
+  {
+    "category": "Python",
+    "question": "Which keyword is used to create a class in Python?",
+    "options": ["function", "define", "class", "object"],
+    "answer": "class"
+  },
+  {
+    "category": "Python",
+    "question": "How do you create a dictionary in Python?",
+    "options": ["Using ()", "Using []", "Using {}", "Using <>"],
+    "answer": "Using {}"
+  },
+  {
+    "category": "Python",
+    "question": "What does the 'range()' function return?",
+    "options": ["list", "tuple", "range object", "array"],
+    "answer": "range object"
+  },
+  {
+    "category": "Python",
+    "question": "Which method is used to convert a string to lowercase?",
+    "options": ["lower()", "toLowerCase()", "lowercase()", "downcase()"],
+    "answer": "lower()"
+  },
+  {
+    "category": "Python",
+    "question": "What will '5 // 2' evaluate to in Python?",
+    "options": ["2", "2.5", "3", "Error"],
+    "answer": "2"
+  },
+  {
+    "category": "Python",
+    "question": "Which of these is not a valid Python data type?",
+    "options": ["list", "map", "tuple", "set"],
+    "answer": "map"
+  },
+  {
+    "category": "Python",
+    "question": "Which operator is used for exponentiation in Python?",
+    "options": ["^", "**", "//", "%"],
+    "answer": "**"
+  },
+  {
+    "category": "Python",
+    "question": "What is the purpose of 'self' in class methods?",
+    "options": ["It refers to the class", "It refers to the object", "It refers to the superclass", "It is a keyword for exceptions"],
+    "answer": "It refers to the object"
+  },
+  {
+    "category": "Python",
+    "question": "Which module in Python is used to generate random numbers?",
+    "options": ["random", "math", "numbers", "os"],
+    "answer": "random"
+  },
+  {
+    "category": "React",
+    "question": "What is the purpose of React?",
+    "options": ["To style components", "To build user interfaces", "To manage databases", "To handle routing"],
+    "answer": "To build user interfaces"
+  },
+  {
+    "category": "React",
+    "question": "Which method is used to create components in React?",
+    "options": ["React.component()", "createComponent()", "React.createClass()", "Class or Function"],
+    "answer": "Class or Function"
+  },
+  {
+    "category": "React",
+    "question": "What is JSX?",
+    "options": ["JavaScript XML", "JavaScript Extension", "Java Source XML", "Java Syntax Extra"],
+    "answer": "JavaScript XML"
+  },
+  {
+    "category": "React",
+    "question": "Which hook is used to manage state in functional components?",
+    "options": ["useEffect", "useRef", "useState", "useContext"],
+    "answer": "useState"
+  },
+  {
+    "category": "React",
+    "question": "What is the virtual DOM in React?",
+    "options": ["An exact copy of the real DOM", "A real DOM", "A lightweight copy of the real DOM", "A DOM created by the browser"],
+    "answer": "A lightweight copy of the real DOM"
+  },
+  {
+    "category": "React",
+    "question": "What is the default method to pass data from parent to child component?",
+    "options": ["Props", "State", "Context", "Emit"],
+    "answer": "Props"
+  },
+  {
+    "category": "React",
+    "question": "What does the 'useEffect' hook do?",
+    "options": ["Updates state", "Handles side effects", "Creates components", "Applies CSS"],
+    "answer": "Handles side effects"
+  },
+  {
+    "category": "React",
+    "question": "Which company developed React?",
+    "options": ["Google", "Microsoft", "Facebook", "Amazon"],
+    "answer": "Facebook"
+  },
+  {
+    "category": "React",
+    "question": "How do you prevent a component from rendering?",
+    "options": ["Return null", "Use empty string", "Use false", "Do not export it"],
+    "answer": "Return null"
+  },
+  {
+    "category": "React",
+    "question": "What is a React Fragment?",
+    "options": ["A part of a component", "An HTML tag", "A component that groups elements", "A router component"],
+    "answer": "A component that groups elements"
+  },
+  {
+    "category": "React",
+    "question": "What is the use of 'key' prop in lists?",
+    "options": ["To access state", "To make list items clickable", "To help React identify elements", "To sort the list"],
+    "answer": "To help React identify elements"
+  },
+  {
+    "category": "React",
+    "question": "Which hook gives access to the component's lifecycle in functional components?",
+    "options": ["useState", "useEffect", "useReducer", "useCallback"],
+    "answer": "useEffect"
+  },
+  {
+    "category": "React",
+    "question": "Which command is used to create a new React app?",
+    "options": ["react-create", "npx create-react-app", "npm react-init", "npx react-new"],
+    "answer": "npx create-react-app"
+  },
+  {
+    "category": "React",
+    "question": "What is 'lifting state up' in React?",
+    "options": ["Moving state to parent", "Deleting state", "Using Redux", "Setting initial state"],
+    "answer": "Moving state to parent"
+  },
+  {
+    "category": "React",
+    "question": "How many elements can a React component return?",
+    "options": ["Only one", "Unlimited", "Two", "One or two"],
+    "answer": "Only one"
+  },
+  {
+    "category": "React",
+    "question": "What is the main advantage of using React?",
+    "options": ["Faster backend", "Server-side scripting", "Efficient UI updates", "Easy database access"],
+    "answer": "Efficient UI updates"
+  },
+  {
+    "category": "React",
+    "question": "What is Redux used for in React?",
+    "options": ["Routing", "State management", "Styling", "Data fetching"],
+    "answer": "State management"
+  },
+  {
+    "category": "React",
+    "question": "What is the use of 'useRef' hook?",
+    "options": ["To hold mutable values", "To manage state", "To create classes", "To render JSX"],
+    "answer": "To hold mutable values"
+  },
+  {
+    "category": "React",
+    "question": "What is the purpose of 'ReactDOM.render()'?",
+    "options": ["To fetch data", "To compile components", "To render React element to the DOM", "To create JSX"],
+    "answer": "To render React element to the DOM"
+  },
+  {
+    "category": "React",
+    "question": "Which of the following is a correct lifecycle method in class components?",
+    "options": ["useState()", "componentDidMount()", "useEffect()", "constructorDidRun()"],
+    "answer": "componentDidMount()"
+  },
+  {
+    "category": "SQL",
+    "question": "What does SQL stand for?",
+    "options": ["Structured Question Language", "Simple Query Language", "Structured Query Language", "Server Query Language"],
+    "answer": "Structured Query Language"
+  },
+  {
+    "category": "SQL",
+    "question": "Which SQL statement is used to extract data from a database?",
+    "options": ["GET", "SELECT", "EXTRACT", "OPEN"],
+    "answer": "SELECT"
+  },
+  {
+    "category": "SQL",
+    "question": "Which clause is used to filter records in SQL?",
+    "options": ["HAVING", "WHERE", "GROUP BY", "FILTER"],
+    "answer": "WHERE"
+  },
+  {
+    "category": "SQL",
+    "question": "What is the default sorting order of the ORDER BY clause?",
+    "options": ["Random", "Ascending", "Descending", "None"],
+    "answer": "Ascending"
+  },
+  {
+    "category": "SQL",
+    "question": "Which command is used to remove all records from a table in SQL?",
+    "options": ["DELETE", "REMOVE", "TRUNCATE", "DROP"],
+    "answer": "TRUNCATE"
+  },
+  {
+    "category": "SQL",
+    "question": "Which SQL keyword is used to prevent duplicate records?",
+    "options": ["DISTINCT", "UNIQUE", "FILTER", "PRIMARY"],
+    "answer": "DISTINCT"
+  },
+  {
+    "category": "SQL",
+    "question": "Which function returns the number of rows in SQL?",
+    "options": ["COUNT()", "SUM()", "TOTAL()", "ROWS()"],
+    "answer": "COUNT()"
+  },
+  {
+    "category": "SQL",
+    "question": "Which operator is used to search for a pattern in SQL?",
+    "options": ["=", "IN", "LIKE", "BETWEEN"],
+    "answer": "LIKE"
+  },
+  {
+    "category": "SQL",
+    "question": "Which statement is used to change data in SQL?",
+    "options": ["CHANGE", "UPDATE", "MODIFY", "REPLACE"],
+    "answer": "UPDATE"
+  },
+  {
+    "category": "SQL",
+    "question": "Which keyword is used to sort the result set in SQL?",
+    "options": ["SORT", "ORDER BY", "ARRANGE BY", "GROUP BY"],
+    "answer": "ORDER BY"
+  },
+  {
+    "category": "SQL",
+    "question": "Which SQL clause groups rows sharing a property?",
+    "options": ["GROUP BY", "ORDER BY", "UNION", "JOIN"],
+    "answer": "GROUP BY"
+  },
+  {
+    "category": "SQL",
+    "question": "Which command deletes a table structure and data?",
+    "options": ["DELETE", "REMOVE", "TRUNCATE", "DROP"],
+    "answer": "DROP"
+  },
+  {
+    "category": "SQL",
+    "question": "Which keyword is used to create a new table?",
+    "options": ["MAKE", "CREATE", "NEW", "BUILD"],
+    "answer": "CREATE"
+  },
+  {
+    "category": "SQL",
+    "question": "Which JOIN returns all records from both tables, matching where possible?",
+    "options": ["INNER JOIN", "LEFT JOIN", "FULL OUTER JOIN", "RIGHT JOIN"],
+    "answer": "FULL OUTER JOIN"
+  },
+  {
+    "category": "SQL",
+    "question": "Which command adds a new record into a table?",
+    "options": ["APPEND", "INSERT INTO", "ADD", "UPDATE"],
+    "answer": "INSERT INTO"
+  },
+  {
+    "category": "SQL",
+    "question": "Which data type is used to store large text in SQL?",
+    "options": ["VARCHAR", "CHAR", "TEXT", "STRING"],
+    "answer": "TEXT"
+  },
+  {
+    "category": "SQL",
+    "question": "Which clause is used after GROUP BY to filter grouped results?",
+    "options": ["WHERE", "HAVING", "ORDER BY", "LIMIT"],
+    "answer": "HAVING"
+  },
+  {
+    "category": "SQL",
+    "question": "Which SQL command is used to create an index?",
+    "options": ["CREATE INDEX", "NEW INDEX", "MAKE INDEX", "ADD INDEX"],
+    "answer": "CREATE INDEX"
+  },
+  {
+    "category": "SQL",
+    "question": "Which constraint ensures that a column cannot have NULL values?",
+    "options": ["UNIQUE", "NOT NULL", "DEFAULT", "CHECK"],
+    "answer": "NOT NULL"
+  },
+  {
+    "category": "SQL",
+    "question": "Which keyword combines rows from two queries into one result?",
+    "options": ["UNION", "MERGE", "COMBINE", "JOIN"],
+    "answer": "UNION"
+  }
+  ]
+}

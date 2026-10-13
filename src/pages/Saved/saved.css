@@ -1,0 +1,29 @@
+.saved-page {
+    padding: 32px;
+}
+
+.tabs {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.tabs button {
+    padding: 10px 18px;
+    border: none;
+    background-color: #ddd;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tabs button.active {
+    background-color: #5a00d1;
+    color: white;
+}
+
+.saved-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}

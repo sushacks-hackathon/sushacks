@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.dashboard-container {
+    background-color: #ffffff;
+    min-height: 100vh;
+    color: #1a1a1a;
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.98);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 22px;
+    color: #5a00d1;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.nav-links li {
+    cursor: pointer;
+    font-weight: 500;
+    position: relative;
+    transition: transform 0.2s ease;
+}
+
+.nav-links li:hover {
+    transform: scale(1.05);
+    color: #5a00d1;
+}
+
+.nav-links li::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #5a00d1;
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-links li:hover::after {
+    width: 100%;
+}
+
+.nav-links .active {
+    color: #5a00d1;
+    font-weight: 600;
+}
+
+.nav-links .active::after {
+    width: 100%;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.signout-button {
+    background-color: #5a00d1;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.signout-button:hover {
+    background-color: #3f0099;
+    transform: scale(1.05);
+}
+
+.welcome-section {
+    padding: 32px;
+}
+
+.cards-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    padding: 0 32px 40px;
+    animation: fadeInCards 0.8s ease;
+}
+
+@keyframes fadeInCards {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.card p {
+    flex-grow: 1;
+}
+
+.card button {
+    background-color: #5a00d1;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.card button:hover {
+    background-color: #3f0099;
+    transform: scale(1.05);
+}
+
+.card.wide {
+    grid-column: span 2;
+}

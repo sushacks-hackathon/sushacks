@@ -1,0 +1,250 @@
+/* Overall Layout */
+.calendar-container {
+    display: flex;
+    padding: 2rem;
+    background-color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    gap: 2rem;
+}
+
+/* === Left Column === */
+.calendar-left {
+    width: 35%;
+}
+
+/* Heading */
+.calendar-left h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #8000ff;
+    /* Purple heading */
+    margin-bottom: 6px;
+}
+
+.react-calendar {
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+/* Highlighted today and selected tile */
+.react-calendar__tile--now {
+    background: #ffe6ff;
+    border-radius: 6px;
+}
+
+.react-calendar__tile--active {
+    background: #8000ff;
+    color: white;
+    border-radius: 6px;
+}
+
+/* === Event Form === */
+.form {
+    margin-top: 2rem;
+    background-color: #fafafa;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.form h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.form p {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 0.75rem;
+}
+
+.form input[type="time"],
+.form input[type="text"] {
+    width: 100%;
+    padding: 0.45rem 0.6rem;
+    font-size: 14px;
+    margin-bottom: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border 0.2s ease;
+}
+
+.form input:focus {
+    border-color: #8000ff;
+}
+
+/* Add Button */
+.form button {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #4b0082;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #5c1dac;
+}
+
+/* === Right Column === */
+.calendar-right {
+    width: 65%;
+}
+
+/* Right Side Heading */
+.calendar-right h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1.2rem;
+}
+
+/* Popup styles */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+    animation: popIn 0.3s ease-in-out;
+}
+
+.popup-box h2 {
+    color: #4b0082;
+    margin-bottom: 1rem;
+}
+
+.popup-link {
+    display: inline-block;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    background: #4b0082;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.close-popup {
+    padding: 0.4rem 1rem;
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.green-date .react-calendar__tile {
+    background-color: #d4edda !important;
+}
+
+.red-date .react-calendar__tile {
+    background-color: #f8d7da !important;
+}
+
+.yellow-date .react-calendar__tile {
+    background-color: #fff3cd !important;
+}
+
+/* Show event dot on calendar date */
+.react-calendar__tile .event-dot {
+    margin-top: 4px;
+    height: 6px;
+    width: 6px;
+    background-color: #f00;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Full event display in calendar tile */
+.tile-events {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 2px;
+    font-size: 10px;
+    overflow: hidden;
+}
+
+.tile-event {
+    padding: 1px 4px;
+    margin-top: 2px;
+    border-radius: 4px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.tile-event.pending {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.tile-event.complete {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.tile-event.due-today {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.more-events {
+    font-size: 9px;
+    color: #007bff;
+}
+
+@keyframes popIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .calendar-container {
+        flex-direction: column;
+    }
+
+    .calendar-left,
+    .calendar-right {
+        width: 100%;
+    }
+
+    .calendar-left {
+        margin-bottom: 2rem;
+    }
+}

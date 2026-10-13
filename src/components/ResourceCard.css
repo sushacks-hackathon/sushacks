@@ -1,0 +1,51 @@
+.resource-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 180px;
+    transition: transform 0.2s ease;
+}
+
+.resource-card:hover {
+    transform: translateY(-5px);
+}
+
+.resource-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+}
+
+.resource-category {
+    font-size: 0.95rem;
+    color: #888;
+    margin-bottom: auto;
+}
+
+.resource-button {
+    display: inline-block;
+    padding: 10px 16px;
+    border: 2px solid #6c2bd9;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #6c2bd9;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.resource-button:hover {
+    background-color: #f3e8ff;
+    color: #4b1db8;
+    text-decoration: none;
+}
+
+.arrow {
+    margin-left: 8px;
+}

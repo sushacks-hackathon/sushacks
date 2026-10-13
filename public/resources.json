@@ -1,0 +1,167 @@
+[
+  {
+    "link": "Home",
+    "url": "https://www.indiabix.com/",
+    "category": "1"
+  },
+  {
+    "link": "Arithmetic Aptitude",
+    "url": "https://www.indiabix.com/aptitude/questions-and-answers/",
+    "category": "3"
+  },
+  {
+    "link": "Data Interpretation",
+    "url": "https://www.indiabix.com/data-interpretation/questions-and-answers/",
+    "category": "4"
+  },
+  {
+    "link": "Verbal Ability",
+    "url": "https://www.indiabix.com/verbal-ability/questions-and-answers/",
+    "category": "5"
+  },
+  {
+    "link": "Logical Reasoning",
+    "url": "https://www.indiabix.com/logical-reasoning/questions-and-answers/",
+    "category": "6"
+  },
+  {
+    "link": "Verbal Reasoning",
+    "url": "https://www.indiabix.com/verbal-reasoning/questions-and-answers/",
+    "category": "7"
+  },
+  {
+    "link": "Nonverbal Reasoning",
+    "url": "https://www.indiabix.com/non-verbal-reasoning/questions-and-answers/",
+    "category": "8"
+  },
+  {
+    "link": "Online Tests",
+    "url": "https://www.indiabix.com/online-test/categories/",
+    "category": "10"
+  },
+  {
+    "link": "Current Affairs",
+    "url": "https://www.indiabix.com/current-affairs/questions-and-answers/",
+    "category": "11"
+  },
+  {
+    "link": "General Knowledge",
+    "url": "https://www.indiabix.com/general-knowledge/questions-and-answers/",
+    "category": "12"
+  },
+  {
+    "link": "HR Interview",
+    "url": "https://www.indiabix.com/hr-interview/questions-and-answers/",
+    "category": "14"
+  },
+  {
+    "link": "Group Discussion",
+    "url": "https://www.indiabix.com/group-discussion/topics-with-answers/",
+    "category": "15"
+  },
+  {
+    "link": "Placement Papers",
+    "url": "https://www.indiabix.com/placement-papers/companies/",
+    "category": "16"
+  },
+  {
+    "link": "Technical Interview",
+    "url": "https://www.indiabix.com/technical/interview-questions-and-answers/",
+    "category": "17"
+  },
+  {
+    "link": "Mechanical Engineering",
+    "url": "https://www.indiabix.com/mechanical-engineering/questions-and-answers/",
+    "category": "19"
+  },
+  {
+    "link": "Civil Engineering",
+    "url": "https://www.indiabix.com/civil-engineering/questions-and-answers/",
+    "category": "20"
+  },
+  {
+    "link": "ECE",
+    "url": "https://www.indiabix.com/electronics-and-communication-engineering/questions-and-answers/",
+    "category": "21"
+  },
+  {
+    "link": "EEE",
+    "url": "https://www.indiabix.com/electrical-engineering/questions-and-answers/",
+    "category": "22"
+  },
+  {
+    "link": "CSE",
+    "url": "https://www.indiabix.com/computer-science/questions-and-answers/",
+    "category": "23"
+  },
+  {
+    "link": "Read more\u2026",
+    "url": "https://www.indiabix.com/engineering/",
+    "category": "24"
+  },
+  {
+    "link": "C Programming",
+    "url": "https://www.indiabix.com/c-programming/questions-and-answers/",
+    "category": "26"
+  },
+  {
+    "link": "C++",
+    "url": "https://www.indiabix.com/cpp-programming/questions-and-answers/",
+    "category": "27"
+  },
+  {
+    "link": "C#",
+    "url": "https://www.indiabix.com/c-sharp-programming/questions-and-answers/",
+    "category": "28"
+  },
+  {
+    "link": "Java",
+    "url": "https://www.indiabix.com/java-programming/questions-and-answers/",
+    "category": "29"
+  },
+  {
+    "link": "Database",
+    "url": "https://www.indiabix.com/database/questions-and-answers/",
+    "category": "30"
+  },
+  {
+    "link": "Networking",
+    "url": "https://www.indiabix.com/networking/questions-and-answers/",
+    "category": "31"
+  },
+  {
+    "link": "Microbiology",
+    "url": "https://www.indiabix.com/microbiology/questions-and-answers/",
+    "category": "33"
+  },
+  {
+    "link": "Biochemistry",
+    "url": "https://www.indiabix.com/biochemistry/questions-and-answers/",
+    "category": "34"
+  },
+  {
+    "link": "Biotechnology",
+    "url": "https://www.indiabix.com/biotechnology/questions-and-answers/",
+    "category": "35"
+  },
+  {
+    "link": "Biochemical",
+    "url": "https://www.indiabix.com/biochemical-engineering/questions-and-answers/",
+    "category": "36"
+  },
+  {
+    "link": "Puzzles Quiz",
+    "url": "https://www.indiabix.com/puzzles/number-puzzles/",
+    "category": "38"
+  },
+  {
+    "link": "Sudoku",
+    "url": "https://www.indiabix.com/puzzles/sudoku/",
+    "category": "39"
+  },
+  {
+    "link": "Contact Us",
+    "url": "https://www.indiabix.com/contact-us",
+    "category": "41"
+  }
+]
