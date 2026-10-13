@@ -146,6 +146,5 @@ Application tracking analytics
 
 Mentor booking system
 
-Admin dashboard 
+Admin dashboard
 
-Email reminders for events
